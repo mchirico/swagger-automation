@@ -4,6 +4,7 @@ Generate swagger specification from Go source code
 # Step 1
 
 ```bash
+
 go run .
 
 ```
@@ -41,6 +42,9 @@ curl -u foo:bar -X 'POST' \
 # Step 4
 
 ```bash
+
+make swagger-json
+
 docker run --rm  \
 --platform  linux/amd64 \
 -v ${PWD}:/local \
