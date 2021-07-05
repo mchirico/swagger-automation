@@ -2,7 +2,7 @@ package docs
 
 import "github.com/pdrum/swagger-automation/api"
 
-// swagger:route POST / head-tag idOfFoobarEndpoint
+// swagger:route POST / head-tag idOfHeadEndpoint
 // Head does some amazing stuff.
 // responses:
 //   200: headResponse
@@ -14,7 +14,7 @@ type headResponseWrapper struct {
 	Body api.FooBarResponse
 }
 
-// swagger:parameters idOfFoobarEndpoint
+// swagger:parameters idOfHeadEndpoint
 type headParamsWrapper struct {
 	// This text will appear as description of your request body.
 	// in:body
