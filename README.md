@@ -38,6 +38,18 @@ curl -u foo:bar -X 'POST' \
 }'
 ```
 
+# Step 4
+
+```bash
+docker run --rm  \
+--platform  linux/amd64 \
+-v ${PWD}:/local \
+swaggerapi/swagger-codegen-cli:2.4.21 \
+generate -i /local/swagger.json -l \
+go --http-user-agent \'BOZO-SDK/v0/go\' -o /local/sdk \
+--additional-properties packageName=bozosdk --additional-properties packageVersion='v0.1.0'
+
+```
 
 
 
