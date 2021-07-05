@@ -46,7 +46,6 @@ curl -u foo:bar -X 'POST' \
 make swagger-json
 
 docker run --rm  \
---platform  linux/amd64 \
 -v ${PWD}:/local \
 swaggerapi/swagger-codegen-cli:2.4.21 \
 generate -i /local/swagger.json -l \
