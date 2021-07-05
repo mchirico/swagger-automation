@@ -2,7 +2,7 @@ package docs
 
 import "github.com/pdrum/swagger-automation/api"
 
-// swagger:route POST /foobar foobar-tag idOfFoobarEndpoint
+// swagger:route POST /foobar 
 // Foobar does some amazing stuff.
 // responses:
 //   200: foobarResponse

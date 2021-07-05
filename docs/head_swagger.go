@@ -2,7 +2,7 @@ package docs
 
 import "github.com/pdrum/swagger-automation/api"
 
-// swagger:route POST / head-tag idOfHeadEndpoint
+// swagger:route POST / 
 // Head does some amazing stuff.
 // responses:
 //   200: headResponse
